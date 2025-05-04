@@ -1,63 +1,63 @@
-<<<<<<< HEAD
-# Anguu
+# 🚀 Angular 10 Challenges - Mastering Core Concepts
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
+Bienvenue dans ce dépôt regroupant **10 mini-projets Angular** conçus pour maîtriser les fondamentaux du framework. Chaque défi se concentre sur un concept clé d’Angular, de la création de composants à l’utilisation des services et du routage.
 
-## Development server
+## 📁 Structure du projet
 
-To start a local development server, run:
+angular-challenges/
+├── src/
+│ ├── app/
+│ │ ├── challenge01-bonjour/
+│ │ ├── challenge02-input/
+│ │ ├── challenge03-output/
+│ │ ├── challenge04-directive/
+│ │ ├── challenge05-ngmodel/
+│ │ ├── challenge06-service/
+│ │ ├── challenge07-routing/
+│ │ ├── challenge08-httpclient/
+│ │ ├── challenge09-ngclass/
+│ │ ├── challenge10-todolist/
+│ └── ...
+├── README.md
+
+
+
+Chaque dossier de composant contient le HTML, CSS, et TypeScript associés.
+
+## 🧩 Liste des challenges
+
+| #  | Titre                      | Objectif                                                               |
+|----|----------------------------|------------------------------------------------------------------------|
+| 1  | Bonjour Component          | Créer un composant affichant "Bonjour, Angular !"                     |
+| 2  | @Input()                   | Passer une donnée du parent vers l'enfant                             |
+| 3  | @Output() & EventEmitter   | L'enfant émet un événement vers le parent                             |
+| 4  | Directive personnalisée    | Créer une directive *appMonSi similaire à *ngIf                       |
+| 5  | [(ngModel)]                | Liaison bidirectionnelle avec un champ de texte                       |
+| 6  | Service Angular            | Utiliser un service pour afficher une liste de tâches                 |
+| 7  | Routage avec paramètres   | Afficher une donnée à partir de l’URL                                  |
+| 8  | Appel API avec HttpClient | Afficher des données depuis une API publique                           |
+| 9  | ngClass / ngStyle          | Appliquer une classe/style dynamiquement                              |
+| 10 | Mini To-do List            | Ajouter et supprimer des tâches                                       |
+
+## 🛠️ Technologies utilisées
+
+- Angular 17+
+- TypeScript
+- HTML5 / CSS3
+- Angular CLI
+- API : [JSONPlaceholder](https://jsonplaceholder.typicode.com)
+
+## ▶️ Lancer le projet
 
 ```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur Angular
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Accédez ensuite à http://localhost:4200.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# Challenges-Angular
->>>>>>> 16569c42c66ecb164782a5cf3867d8a0aa540adc
+👨‍💻 Auteur
+Youssef El Madani
+📧 youssfelmadani@gmail.com
