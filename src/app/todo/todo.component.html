@@ -1,0 +1,6 @@
+<input [(ngModel)]="tache" type="text">
+<button (click)="ajouterTache()">Ajouter</button>
+
+<ul >
+    <li *ngFor="let t of taches ; let i = index">{{ t }} <button (click)="ModfierTache(tache)">Modifier</button><button (click)="supprimerTache(i)">Supprimer</button></li>
+</ul>

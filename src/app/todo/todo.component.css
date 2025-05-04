@@ -1,0 +1,12 @@
+input, button {
+    margin: 5px;
+  }
+  button {
+    background-color: teal;
+    color: white;
+    padding: 5px 10px;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  
